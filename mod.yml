@@ -1,0 +1,44 @@
+title: Musical Silhouettes
+description: Replaces Vexen, Lexaeus, Zexion, Marluxia, and Larxene
+assets:
+#Zexion
+- name: obj/B_EX370.mdlx
+  method: copy
+  source:
+  - name: obj/B_EX370.mdlx
+#Larxene
+- name: obj/B_EX400.mdlx
+  method: copy
+  source:
+  - name: obj/B_EX400.mdlx
+#Marluxia
+- name: obj/N_CM000.mdlx
+  method: copy
+  source:
+  - name: obj/N_CM000.mdlx
+- name: obj/N_CM000_BTL.mdlx
+  method: copy
+  source:
+  - name: obj/N_CM000_BTL.mdlx
+#Lexaeus
+- name: obj/N_CM020.mdlx
+  method: copy
+  source:
+  - name: obj/N_CM020.mdlx
+- name: obj/N_CM020_BTL.mdlx
+  method: copy
+  source:
+  - name: obj/N_CM020_BTL.mdlx
+#Vexen
+- name: obj/N_CM040.mdlx
+  method: copy
+  source:
+  - name: obj/N_CM040.mdlx
+- name: obj/N_CM040_BTL.mdlx
+  method: copy
+  source:
+  - name: obj/N_CM040_BTL.mdlx
+- name: obj/N_CM040_GM.mdlx
+  method: copy
+  source:
+  - name: obj/N_CM040_GM.mdlx
