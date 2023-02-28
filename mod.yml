@@ -77,12 +77,12 @@ assets:
     type: model
     method: copy
     source:
-    - name: obj/N_CM020_BTL.model
+    - name: obj/N_CM020.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj/N_CM020_BTL.tim
+    - name: obj/N_CM020.tim
 #Vexen
 - name: obj/N_CM040.mdlx
   method: binarc
@@ -117,9 +117,9 @@ assets:
     type: model
     method: copy
     source:
-    - name: obj/N_CM040_GM.model
+    - name: obj/N_CM040.model
   - name: tim_
     type: modeltexture
     method: copy
     source:
-    - name: obj/N_CM040_GM.tim
+    - name: obj/N_CM040.tim
