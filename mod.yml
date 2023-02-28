@@ -3,42 +3,123 @@ description: Replaces Vexen, Lexaeus, Zexion, Marluxia, and Larxene
 assets:
 #Zexion
 - name: obj/B_EX370.mdlx
-  method: copy
+  method: binarc
   source:
-  - name: obj/B_EX370.mdlx
+  - name: b_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/B_EX370.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/B_EX370.tim
 #Larxene
 - name: obj/B_EX400.mdlx
-  method: copy
+  method: binarc
   source:
-  - name: obj/B_EX400.mdlx
+  - name: b_ex
+    type: model
+    method: copy
+    source:
+    - name: obj/B_EX400.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/B_EX400.tim
 #Marluxia
 - name: obj/N_CM000.mdlx
-  method: copy
+  method: binarc
   source:
-  - name: obj/N_CM000.mdlx
+  - name: n_cm
+    type: model
+    method: copy
+    source:
+    - name: obj/N_CM000.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/N_CM000.tim
 - name: obj/N_CM000_BTL.mdlx
-  method: copy
+  method: binarc
   source:
-  - name: obj/N_CM000_BTL.mdlx
+  - name: n_cm
+    type: model
+    method: copy
+    source:
+    - name: obj/N_CM000.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/N_CM000.tim
 #Lexaeus
 - name: obj/N_CM020.mdlx
-  method: copy
+  method: binarc
   source:
-  - name: obj/N_CM020.mdlx
+  - name: n_cm
+    type: model
+    method: copy
+    source:
+    - name: obj/N_CM020.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/N_CM020.tim
 - name: obj/N_CM020_BTL.mdlx
-  method: copy
+  method: binarc
   source:
-  - name: obj/N_CM020_BTL.mdlx
+  - name: n_cm
+    type: model
+    method: copy
+    source:
+    - name: obj/N_CM020_BTL.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/N_CM020_BTL.tim
 #Vexen
 - name: obj/N_CM040.mdlx
-  method: copy
+  method: binarc
   source:
-  - name: obj/N_CM040.mdlx
+  - name: n_cm
+    type: model
+    method: copy
+    source:
+    - name: obj/N_CM040.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/N_CM040.tim
 - name: obj/N_CM040_BTL.mdlx
-  method: copy
+  method: binarc
   source:
-  - name: obj/N_CM040_BTL.mdlx
+  - name: n_cm
+    type: model
+    method: copy
+    source:
+    - name: obj/N_CM040.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/N_CM040.tim
 - name: obj/N_CM040_GM.mdlx
-  method: copy
+  method: binarc
   source:
-  - name: obj/N_CM040_GM.mdlx
+  - name: n_cm
+    type: model
+    method: copy
+    source:
+    - name: obj/N_CM040_GM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: obj/N_CM040_GM.tim
