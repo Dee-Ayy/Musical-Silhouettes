@@ -56,6 +56,32 @@ assets:
     method: copy
     source:
     - name: obj/N_CM000.tim
+
+#Marluxia Texture Replacements Because Reasons#
+- name: remastered/obj/N_CM000.mdlx/-2.dds
+  multi:
+  - name: remastered/obj/N_CM000_BTL.mdlx/-2.dds
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: obj/hair.dds
+
+  - name: remastered/obj/N_CM000.mdlx/-3.dds
+  multi:
+  - name: remastered/obj/N_CM000_BTL.mdlx/-3.dds
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: obj/flounder.dds
+
+- name: remastered/obj/N_CM000.mdlx/-4.dds
+  multi:
+  - name: remastered/obj/N_CM000_BTL.mdlx/-4.dds
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: obj/scythe.dds
+
 #Lexaeus
 - name: obj/N_CM020.mdlx
   method: binarc
@@ -123,3 +149,21 @@ assets:
     method: copy
     source:
     - name: obj/N_CM040.tim
+
+#Vexen Texture Replacements To Stop The Horror#
+- name: remastered/obj/N_CM040.mdlx/-2.dds
+  multi:
+  - name: remastered/obj/N_CM040_BTL.mdlx/-2.dds
+  - name: remastered/obj/N_CM040_GM.mdlx/-2.dds
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: obj/ursula.dds
+- name: remastered/obj/N_CM040.mdlx/-3.dds
+  multi:
+  - name: remastered/obj/N_CM040_BTL.mdlx/-3.dds
+  - name: remastered/obj/N_CM040_GM.mdlx/-3.dds
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: obj/shield.dds
