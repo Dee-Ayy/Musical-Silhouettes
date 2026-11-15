@@ -66,7 +66,7 @@ assets:
   source:
   - name: obj/hair.dds
 
-  - name: remastered/obj/N_CM000.mdlx/-3.dds
+- name: remastered/obj/N_CM000.mdlx/-3.dds
   multi:
   - name: remastered/obj/N_CM000_BTL.mdlx/-3.dds
   package: kh2_fifth
